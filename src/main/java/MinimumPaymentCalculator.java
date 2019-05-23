@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class MinimumPaymentCalculator {
     public String calculateDurationGivenMonthlyPaymentCalculator(int outstandingBalance, double interestRate, double monthlyPayment) {
 
-        double currentBalance = outstandingBalance + (outstandingBalance * interestRate / 100) / 12 - monthlyPayment ;
+        double currentBalance = outstandingBalance + (outstandingBalance * interestRate / 100) / 12 - monthlyPayment;
         int monthsCount = 0;
         double totalInterest = 0;
 
