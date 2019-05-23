@@ -1,23 +1,23 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class MinimumPaymentCalculator {
-    public String calculateDurationGivenMonthlyPaymentCalculator(int outstandingBalance, double interestRate, double monthlyPayment) {
+class MinimumPaymentCalculator {
+    public String calculateDurationGivenMonthlyPaymentCalculator(int fullBalanceOwed, double interestRate, double monthlyPayment) {
 
-        double currentBalance = outstandingBalance + (outstandingBalance * interestRate / 100) / 12 - monthlyPayment;
+        double fullBalancePlusInterestMinusMonthlyPayment = fullBalanceOwed + (fullBalanceOwed * interestRate / 100) / 12 - monthlyPayment;
         int monthsCount = 0;
         double totalInterest = 0;
 
         do {
-            double balance = 0;
-            balance += (currentBalance + (currentBalance * interestRate / 100) / 12) - monthlyPayment;
-            totalInterest += (currentBalance * interestRate / 100) / 12;
-            currentBalance = balance;
+            double currentBalance = 0;
+            currentBalance += (fullBalancePlusInterestMinusMonthlyPayment + (fullBalancePlusInterestMinusMonthlyPayment * interestRate / 100) / 12) - monthlyPayment;
+            totalInterest += (fullBalancePlusInterestMinusMonthlyPayment * interestRate / 100) / 12;
+            fullBalancePlusInterestMinusMonthlyPayment = currentBalance;
             monthsCount++;
-        } while (currentBalance > 0);
+        } while (fullBalancePlusInterestMinusMonthlyPayment > 0);
 
 
-        String timeToPayOffCardAndTotalInterest = "It will take " + monthsCount + " months to pay off the balance of £" + outstandingBalance + ". You will have paid £" + new DecimalFormat("##.##").format(totalInterest) + " in interest.";
+        String timeToPayOffCardAndTotalInterest = "It will take " + monthsCount + " months to pay off the balance of £" + fullBalanceOwed + ". You will have paid £" + new DecimalFormat("##.##").format(totalInterest) + " in interest.";
         System.out.println(timeToPayOffCardAndTotalInterest);
         return timeToPayOffCardAndTotalInterest;
 
@@ -39,10 +39,10 @@ public class MinimumPaymentCalculator {
             minimumPaymentCalculator.calculateDurationGivenMonthlyPaymentCalculator(outstandingBalance, interestRate, monthlyPayment);
             System.out.println("Would you like to see how much quicker you could be debt free if you increased your monthly payment?");
             String compareHigherPayment = input.next();
-            if (compareHigherPayment.equalsIgnoreCase("y")||compareHigherPayment.equalsIgnoreCase("yes")){
+            if (compareHigherPayment.equalsIgnoreCase("y") || compareHigherPayment.equalsIgnoreCase("yes")) {
                 System.out.println("How much can you afford to pay each month?");
                 double higherMonthlyPayment = input.nextDouble();
-                minimumPaymentCalculator.calculateDurationGivenMonthlyPaymentCalculator(outstandingBalance,interestRate, higherMonthlyPayment);
+                minimumPaymentCalculator.calculateDurationGivenMonthlyPaymentCalculator(outstandingBalance, interestRate, higherMonthlyPayment);
             }
         } finally {
             input.close();
