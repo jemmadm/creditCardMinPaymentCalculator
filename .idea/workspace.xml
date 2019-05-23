@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fe64803-0a7e-4fe1-92f5-416894a02a01" name="Default Changelist" comment="" />
+    <list default="true" id="5fe64803-0a7e-4fe1-92f5-416894a02a01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MinimumPaymentCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MinimumPaymentCalculatorTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -21,20 +29,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="83">
+              <caret line="19" column="235" selection-start-line="19" selection-start-column="235" selection-end-line="19" selection-end-column="235" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MinimumPaymentCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="18" column="99" selection-start-line="18" selection-start-column="99" selection-end-line="18" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -55,6 +78,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/MinimumPaymentCalculatorTest.java" />
       </list>
     </option>
@@ -95,6 +121,13 @@
               <item name="credit-card-min-payment" type="b2602c69:ProjectViewProjectNode" />
               <item name="credit-card-min-payment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="credit-card-min-payment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="credit-card-min-payment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -103,6 +136,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="credit-card-min-payment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -122,6 +159,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.gradle.running" />
   </component>
   <component name="RecentsManager">
@@ -144,6 +182,41 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.MinimumPaymentCalculator">
+    <configuration name="MinimumPaymentCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinimumPaymentCalculator" />
+      <module name="credit-card-min-payment.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumPaymentCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="credit-card-min-payment.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MinimumPaymentCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumPaymentCalculatorTest.doesCalculateDurationGivenMinimumPaymentCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="credit-card-min-payment.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MinimumPaymentCalculatorTest" />
+      <option name="METHOD_NAME" value="doesCalculateDurationGivenMinimumPaymentCalculator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MinimumPaymentCalculator" />
+        <item itemvalue="JUnit.MinimumPaymentCalculatorTest" />
+        <item itemvalue="JUnit.MinimumPaymentCalculatorTest.doesCalculateDurationGivenMinimumPaymentCalculator" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -154,12 +227,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558429456922</updated>
-      <workItem from="1558429458526" duration="990000" />
+      <workItem from="1558429458526" duration="15939000" />
     </task>
+    <task id="LOCAL-00001" summary="project created">
+      <created>1558539629968</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558539629968</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 08m 01s.xml">
+      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 10m 17s.xml">
+      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 11m 39s.xml">
+      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 13m 44s.xml">
+      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 14m 02s.xml">
+      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 14m 54s.xml">
+      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 15m 43s.xml">
+      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 16m 18s.xml">
+      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 25m 24s.xml">
+      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 25m 50s.xml">
+      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="990000" />
+    <option name="totallyTimeSpent" value="15939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -170,17 +283,18 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32961586" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32961586" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32961586" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -200,18 +314,42 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project created" />
+    <option name="LAST_COMMIT_MESSAGE" value="project created" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="150">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MinimumPaymentCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="18" column="99" selection-start-line="18" selection-start-column="99" selection-end-line="18" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="19" column="235" selection-start-line="19" selection-start-column="235" selection-end-line="19" selection-end-column="235" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
