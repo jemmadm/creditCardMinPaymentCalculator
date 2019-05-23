@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fe64803-0a7e-4fe1-92f5-416894a02a01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MinimumPaymentCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MinimumPaymentCalculatorTest.java" afterDir="false" />
     </list>
@@ -29,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="19" column="235" selection-start-line="19" selection-start-column="235" selection-end-line="19" selection-end-column="235" />
+            <state relative-caret-position="180">
+              <caret line="12" column="101" selection-start-line="12" selection-start-column="101" selection-end-line="12" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MinimumPaymentCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -80,8 +76,8 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/MinimumPaymentCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java" />
       </list>
     </option>
   </component>
@@ -182,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinimumPaymentCalculator">
+  <component name="RunManager" selected="JUnit.MinimumPaymentCalculatorTest">
     <configuration name="MinimumPaymentCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MinimumPaymentCalculator" />
       <module name="credit-card-min-payment.main" />
@@ -209,10 +205,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinimumPaymentCalculatorTest.doesCalculateDurationGivenMinimumPaymentCalculatorWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="credit-card-min-payment.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MinimumPaymentCalculatorTest" />
+      <option name="METHOD_NAME" value="doesCalculateDurationGivenMinimumPaymentCalculatorWork" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinimumPaymentCalculator" />
         <item itemvalue="JUnit.MinimumPaymentCalculatorTest" />
+        <item itemvalue="JUnit.MinimumPaymentCalculatorTest.doesCalculateDurationGivenMinimumPaymentCalculatorWork" />
+        <item itemvalue="Application.MinimumPaymentCalculator" />
         <item itemvalue="JUnit.MinimumPaymentCalculatorTest.doesCalculateDurationGivenMinimumPaymentCalculator" />
       </list>
     </recent_temporary>
@@ -227,7 +234,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558429456922</updated>
-      <workItem from="1558429458526" duration="15939000" />
+      <workItem from="1558429458526" duration="16393000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1558539629968</created>
@@ -236,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558539629968</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="methods and tests created">
+      <created>1558617965328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558617965328</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -272,7 +286,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15939000" />
+    <option name="totallyTimeSpent" value="16393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -316,7 +330,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project created" />
-    <option name="LAST_COMMIT_MESSAGE" value="project created" />
+    <MESSAGE value="methods and tests created" />
+    <option name="LAST_COMMIT_MESSAGE" value="methods and tests created" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -333,20 +348,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MinimumPaymentCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="99" selection-start-line="18" selection-start-column="99" selection-end-line="18" selection-end-column="99" />
+        <state relative-caret-position="180">
+          <caret line="12" column="101" selection-start-line="12" selection-start-column="101" selection-end-line="12" selection-end-column="101" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MinimumPaymentCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="19" column="235" selection-start-line="19" selection-start-column="235" selection-end-line="19" selection-end-column="235" />
+        <state relative-caret-position="270">
+          <caret line="18" column="99" selection-start-line="18" selection-start-column="99" selection-end-line="18" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
