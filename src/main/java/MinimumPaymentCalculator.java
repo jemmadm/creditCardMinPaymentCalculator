@@ -37,7 +37,7 @@ public class MinimumPaymentCalculator {
             double monthlyPayment = input.nextDouble();
             MinimumPaymentCalculator minimumPaymentCalculator = new MinimumPaymentCalculator();
             minimumPaymentCalculator.calculateDurationGivenMonthlyPaymentCalculator(outstandingBalance, interestRate, monthlyPayment);
-            System.out.println("Would you like to see the difference if you paid a regular amount above the minimum payment?");
+            System.out.println("Would you like to see how much quicker you could be debt free if you increased your monthly payment?");
             String compareHigherPayment = input.next();
             if (compareHigherPayment.equalsIgnoreCase("y")||compareHigherPayment.equalsIgnoreCase("yes")){
                 System.out.println("How much can you afford to pay each month?");
