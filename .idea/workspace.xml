@@ -24,12 +24,12 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="315">
+              <caret line="21" column="106" selection-start-line="21" selection-start-column="106" selection-end-line="21" selection-end-column="106" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MinimumPaymentCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="285">
+              <caret line="19" column="124" selection-start-line="19" selection-start-column="124" selection-end-line="19" selection-end-column="124" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,8 +67,8 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/MinimumPaymentCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java" />
       </list>
     </option>
   </component>
@@ -84,8 +84,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,10 +206,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinimumPaymentCalculatorTest.doesHigherPaymentCalculatorWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="credit-card-min-payment.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MinimumPaymentCalculatorTest" />
+      <option name="METHOD_NAME" value="doesHigherPaymentCalculatorWork" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MinimumPaymentCalculatorTest" />
         <item itemvalue="JUnit.MinimumPaymentCalculatorTest.doesCalculateDurationGivenMinimumPaymentCalculatorWork" />
+        <item itemvalue="JUnit.MinimumPaymentCalculatorTest.doesHigherPaymentCalculatorWork" />
         <item itemvalue="Application.MinimumPaymentCalculator" />
         <item itemvalue="JUnit.MinimumPaymentCalculatorTest.doesCalculateDurationGivenMinimumPaymentCalculator" />
       </list>
@@ -225,7 +236,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558429456922</updated>
-      <workItem from="1558429458526" duration="18759000" />
+      <workItem from="1558429458526" duration="20410000" />
+      <workItem from="1559038090049" duration="15000" />
+      <workItem from="1559137200517" duration="252000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1558539629968</created>
@@ -262,80 +275,87 @@
       <option name="project" value="LOCAL" />
       <updated>1558626665238</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="minor refactoring">
+      <created>1558652584014</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558652584014</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 14m 02s.xml">
-      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="MinimumPaymentCalculatorTest_doesHigherPaymentCalculatorWork - 2019.05.29 at 14h 42m 03s.xml">
+      <configuration name="MinimumPaymentCalculatorTest.doesHigherPaymentCalculatorWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 14m 54s.xml">
-      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="MinimumPaymentCalculatorTest_doesHigherPaymentCalculatorWork - 2019.05.29 at 14h 42m 15s.xml">
+      <configuration name="MinimumPaymentCalculatorTest.doesHigherPaymentCalculatorWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 15m 43s.xml">
-      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="MinimumPaymentCalculatorTest_doesHigherPaymentCalculatorWork - 2019.05.29 at 14h 42m 27s.xml">
+      <configuration name="MinimumPaymentCalculatorTest.doesHigherPaymentCalculatorWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 16m 18s.xml">
-      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="MinimumPaymentCalculatorTest_doesHigherPaymentCalculatorWork - 2019.05.29 at 14h 42m 36s.xml">
+      <configuration name="MinimumPaymentCalculatorTest.doesHigherPaymentCalculatorWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 25m 24s.xml">
-      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="MinimumPaymentCalculatorTest_doesHigherPaymentCalculatorWork - 2019.05.29 at 14h 42m 47s.xml">
+      <configuration name="MinimumPaymentCalculatorTest.doesHigherPaymentCalculatorWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 13h 25m 50s.xml">
-      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="MinimumPaymentCalculatorTest_doesHigherPaymentCalculatorWork - 2019.05.29 at 14h 43m 15s.xml">
+      <configuration name="MinimumPaymentCalculatorTest.doesHigherPaymentCalculatorWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 16h 47m 13s.xml">
-      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="MinimumPaymentCalculatorTest_doesHigherPaymentCalculatorWork - 2019.05.29 at 14h 43m 50s.xml">
+      <configuration name="MinimumPaymentCalculatorTest.doesHigherPaymentCalculatorWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinimumPaymentCalculatorTest_doesCalculateDurationGivenMinimumPaymentCalculatorWork - 2019.05.23 at 16h 47m 25s.xml">
+    <history-entry file="MinimumPaymentCalculatorTest_doesHigherPaymentCalculatorWork - 2019.05.29 at 14h 44m 14s.xml">
+      <configuration name="MinimumPaymentCalculatorTest.doesHigherPaymentCalculatorWork" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinimumPaymentCalculatorTest_doesCalculateDurationGivenMinimumPaymentCalculatorWork - 2019.05.29 at 14h 44m 21s.xml">
       <configuration name="MinimumPaymentCalculatorTest.doesCalculateDurationGivenMinimumPaymentCalculatorWork" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 16h 48m 12s.xml">
-      <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.23 at 16h 48m 25s.xml">
+    <history-entry file="MinimumPaymentCalculatorTest - 2019.05.29 at 14h 44m 46s.xml">
       <configuration name="MinimumPaymentCalculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18759000" />
+    <option name="totallyTimeSpent" value="20677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.32961586" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32961586" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" visible="true" weight="0.32961586" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32961586" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32961586" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32961586" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32961586" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32961586" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +366,8 @@
     <MESSAGE value="methods and tests created" />
     <MESSAGE value="removed one method" />
     <MESSAGE value="reworded user text" />
-    <option name="LAST_COMMIT_MESSAGE" value="reworded user text" />
+    <MESSAGE value="minor refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor refactoring" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -365,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MinimumPaymentCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="315">
+          <caret line="21" column="106" selection-start-line="21" selection-start-column="106" selection-end-line="21" selection-end-column="106" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -375,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MinimumPaymentCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="19" column="124" selection-start-line="19" selection-start-column="124" selection-end-line="19" selection-end-column="124" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

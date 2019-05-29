@@ -16,8 +16,7 @@ class MinimumPaymentCalculator {
             monthsCount++;
         } while (fullBalancePlusInterestMinusMonthlyPayment > 0);
 
-
-        String timeToPayOffCardAndTotalInterest = "It will take " + monthsCount + " months to pay off the balance of £" + fullBalanceOwed + ". You will have paid £" + new DecimalFormat("##.##").format(totalInterest) + " in interest.";
+        String timeToPayOffCardAndTotalInterest = "It will take " + monthsCount/12 + " years and " + monthsCount%12 + " months to pay off the balance of £" + fullBalanceOwed + ". You will have paid £" + new DecimalFormat("##.##").format(totalInterest) + " in interest.";
         System.out.println(timeToPayOffCardAndTotalInterest);
         return timeToPayOffCardAndTotalInterest;
 
